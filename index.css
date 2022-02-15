@@ -1,0 +1,386 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: yellow;
+}
+/* Navbar */
+#header {
+  margin-bottom: 20px;
+}
+#branding {
+  display: flex;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 18px;
+  left: 22px;
+}
+#header h1 {
+  margin: 25px 25px 5px 25px;
+  font-size: 3rem;
+}
+#header h3 {
+  position: relative;
+  top: 45px;
+  left: -20px;
+  display: flex;
+  margin: 0px;
+  font-size: 1.5rem;
+}
+
+/* Navbar Links */
+#navbar-links {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  left: 975px;
+  top: -35px;
+}
+
+#navbar-links li {
+  list-style: none;
+  text-decoration: none;
+}
+
+#navbar-links li a {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.6rem;
+  color: yellow;
+}
+
+#navbar-links li:hover {
+  transform: scale(1.1);
+}
+#navbar-links li a:hover {
+  color: white;
+}
+
+/* Login Section */
+
+#login {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 10px;
+  padding: 20px;
+}
+
+#video video {
+  height: 70vh;
+  width: 50vw;
+}
+
+#login-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid silver;
+  padding: 30px;
+  width: 30%;
+}
+#login-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  font-size: 1.5rem;
+  align-content: center;
+}
+#login-section h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 3rem;
+  bottom: 28px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+#login-section form input {
+  font-size: 1.1rem;
+  position: relative;
+  left: auto;
+  padding: 10px;
+}
+#form #btn a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+}
+#btn {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+#btn:hover {
+  transform: scale(1.1);
+}
+
+/* Products */
+#products {
+  margin: 50px 0;
+}
+#products img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+#products .categories {
+  display: inline-block;
+  width: 40%;
+  margin: 20px 50px 20px 70px;
+  padding: 10px;
+  border: 2px solid yellow;
+}
+
+#products h2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  padding: 10px;
+}
+#products .categories p {
+  display: flex;
+  margin: auto;
+  padding: 15px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+
+/* About Us  */
+
+#about {
+  margin: 50px 50px;
+}
+#about-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 450px;
+  height: 450px;
+  border: 2px solid yellow;
+  padding: 50px 100px 200px 100px;
+}
+.abt-heading {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  left: 635px;
+  top: -130px;
+  z-index: 1;
+  color: aliceblue;
+}
+
+#about h1 {
+  font-size: 3rem;
+  margin: 2px;
+}
+
+#about p {
+  margin: 5px 25px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contact Us */
+
+#contact {
+  margin: 50px 10px;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  font-size: 1.5rem;
+  border: 1px solid silver;
+  padding: 80px 20px;
+  border-radius: 10px;
+}
+#contact-form input {
+  padding: 5px;
+}
+#contact-form p {
+  display: inline-block;
+  position: relative;
+  top: 55px;
+  left: 150px;
+  color: silver;
+}
+#contact-form #btn {
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+/* Footer */
+
+#footer p {
+  font-size: 1.5rem;
+  background-color: yellow;
+  color: black;
+  margin: 0px;
+  padding: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: auto;
+}
+
+/* Section Heading  */
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding: 20px;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+  video {
+    display: none;
+  }
+  #login-section {
+    width: 100%;
+  }
+  #navbar-links {
+    display: flex;
+    justify-content: ;
+    align-content: center;
+    font-size: 0.5rem;
+    left: 45px;
+    top: auto;
+  }
+  #navbar-links li {
+    margin: 2px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    left: 45px;
+  }
+  #branding {
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+  }
+  #products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  #products .categories {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+  }
+  #about-img {
+    height: 350px;
+    width: 350px;
+  }
+  .abt-heading {
+    position: relative;
+    left: 250px;
+  }
+  #contact-form p {
+    font-size: 1rem;
+    display: block;
+    position: relative;
+    left: 32px;
+  }
+  #footer p {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+/* @media (min-width: 575px) {
+  #branding {
+    margin: auto;
+  }
+  #branding h3 {
+    margin: 0px;
+  }
+
+  #navbar-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  #login {
+    margin: 10px 100px;
+    padding: auto;
+  }
+  #login-section #form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    align-content: center;
+    align-self: center;
+  }
+  hr {
+    display: none;
+  }
+  #about-img {
+    width: 250px;
+    height: 250px;
+  }
+  .abt-heading {
+    position: relative;
+    top: -125px;
+    left: 133px;
+  }
+  #about p {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  #contact-form {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+  #contact-form p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    left: 0px;
+    top: 45px;
+  }
+} */
